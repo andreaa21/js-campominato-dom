@@ -107,8 +107,15 @@ function createSquare(squareId, squareNumber){
     square.squareId = squareId;
     // scrivo l'id custom dentro lo square
     square.innerHTML = `${squareId}`; 
+    // aggiungo il click agli square
+    square.addEventListener('click', clickSquare)
     // restituisco lo square
     return square;
+}
+
+function clickSquare(event){
+    console.log(this.squareId);
+    this.classList.add('clicked')
 }
 
 function reset(){
