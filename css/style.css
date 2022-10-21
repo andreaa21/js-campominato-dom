@@ -21,21 +21,34 @@ main{
     height: calc(100vh - 140px);
     background-color: aquamarine;
 }
-.c-container{
+.grid{
     height: 500px;
     width: 500px;
 }
 .square{
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid black;
-    width: calc(100% / 10);
+    /* width: calc(100% / 10);
+    height: calc(100% / 10);*/
+}
+.square100{
+     width: calc(100% / 10);
     height: calc(100% / 10);
 }
-.square.color{
+.square81{
+    width: calc(100% / 9);
+   height: calc(100% / 9);
+}
+.square49{
+    width: calc(100% / 7);
+   height: calc(100% / 7);
+}
+
+.clicked{
     background-color: cornflowerblue;
+}
+.bomb{
+    background-color: brown;
 }
 
 
