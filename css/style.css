@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    background-color: rgba(255, 0, 0, .25);
+    border: 1px solid black;
+}
+
+
+header{
+    height: 90px;
+}
+.logo span{
+    font-size: 1.6rem;
+}
+
+main{
+    height: calc(100vh - 140px);
+    background-color: aquamarine;
+}
+.c-container{
+    height: 500px;
+    width: 500px;
+}
+.square{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.square.color{
+    background-color: cornflowerblue;
+}
+
+
+footer{
+    height: 50px;
+}
